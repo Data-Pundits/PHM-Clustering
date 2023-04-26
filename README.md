@@ -1,4 +1,4 @@
-# Clustering Techniques
+# Clustering
 
 ## Introduction
 Clustering is a technique used in fault diagnosis to identify groups of unlabelled data points based on their similarities and differences. The aim is to group together similar data points and assign them a label or category based on these similarities. The following clustering techniques are commonly used:
@@ -28,7 +28,7 @@ Clustering is a technique used in fault diagnosis to identify groups of unlabell
 - fastdtw==0.3.4
 
 ## Dataset
-The dataset used for clustering should be pre-processed and saved as a file. The path to the file should be updated in the `datasource_config.py` file.
+The dataset used for clustering is to be saved in a folder after performing pre-processing. The path to the folder should be updated in the `datasource_config.py` file by changing the path for the `CLUSTERING_SOURCE_DATA_PATH` variable in the Python file.
 
 ## Running the clustering algorithm notebooks
 1. Update the path to the pre-processed dataset in the `datasource_config.py` file.
