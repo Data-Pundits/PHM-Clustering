@@ -35,7 +35,7 @@ The folder `parquet files` contain the datasets already created after pre-proces
 
 ## Running the clustering algorithm notebooks
 1. Update the path to the pre-processed dataset in the `datasource_config.py` file.
-2. Run each of the Jupyter notebooks for the different clustering algorithms.
+2. Run each of the Jupyter notebooks for different clustering algorithms.
 3. Check the crosstab heatmaps and scatter plots generated in each notebook to understand the cluster label assignment and how they are distributed amongst different fault labels.
 
 ## Understanding the scatter plots and crosstab heatmaps
