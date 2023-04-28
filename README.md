@@ -3,11 +3,11 @@
 ## Introduction
 Clustering is a technique used in fault diagnosis to identify groups of unlabelled data points based on their similarities and differences. The aim is to group together similar data points and assign them a label or category based on these similarities. The following clustering techniques are used in these Jupyter notebooks:
 
-- K-Means Clustering : `Kmeans_clustering`
-- Gaussian Clustering : `Gaussian_clustering`
-- Hierarchical Clustering : `Hierarchical_clustering`
-- Clustering after Discrete Wavelet Transform approach : `Wavelet_transform_clustering` 
-- Dynamic Time Warping based Clustering : `DTW_clustering`
+- K-Means Clustering : `Kmeans_clustering.ipynb`
+- Gaussian Clustering : `Gaussian_clustering.ipynb`
+- Hierarchical Clustering : `Hierarchical_clustering.ipynb`
+- Clustering after Discrete Wavelet Transform approach : `Wavelet_transform_clustering.ipynb` 
+- Dynamic Time Warping based Clustering : `DTW_clustering.ipynb`
 
 ## Pre-requisites
 - Jupyter Notebook
