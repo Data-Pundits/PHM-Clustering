@@ -1,4 +1,4 @@
-# Clustering
+# Clustering for Fault Diagnosis
 
 ## Introduction
 Clustering is a technique used in fault diagnosis to identify groups of unlabelled data points based on their similarities and differences. The aim is to group together similar data points and assign them a label or category based on these similarities. The following clustering techniques are used in these Jupyter notebooks:
@@ -28,7 +28,10 @@ Clustering is a technique used in fault diagnosis to identify groups of unlabell
 - fastdtw==0.3.4
 
 ## Dataset
-The dataset used for clustering is to be saved in a folder after performing pre-processing. The path to the pre-processed dataset folder should be updated by changing the path for the `CLUSTERING_SOURCE_DATA_PATH` variable in `datasource_config.py` file.
+The dataset used for clustering is to be saved in a folder after performing pre-processing. The path to the dataset folder created after pre-processing should be updated by changing the path in the `CLUSTERING_SOURCE_DATA_PATH` variable in `datasource_config.py` file.
+
+## Parquet Files
+The folder `parquet files` contain the datasets already created after pre-processing. Feel free to use these parquet files as your dataset created after pre-processing for applying clustering techniques.
 
 ## Running the clustering algorithm notebooks
 1. Update the path to the pre-processed dataset in the `datasource_config.py` file.
