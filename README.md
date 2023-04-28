@@ -29,6 +29,7 @@ Clustering is a technique used in fault diagnosis to identify groups of unlabell
 
 ## Dataset
 The dataset used for clustering is to be saved in a folder after performing pre-processing. The path to the dataset folder created after pre-processing should be updated by changing the path in the `CLUSTERING_SOURCE_DATA_PATH` variable in `datasource_config.py` file.
+For pre-processing, follow the steps in [PHM-Data-Preprocessing](https://github.com/Data-Pundits/PHM-Data-Preprocessing)
 
 ## Parquet Files
 The folder `parquet files` contain the datasets already created after pre-processing. Feel free to use these parquet files as your dataset created after pre-processing for applying clustering techniques.
