@@ -1,13 +1,13 @@
 # Clustering
 
 ## Introduction
-Clustering is a technique used in fault diagnosis to identify groups of unlabelled data points based on their similarities and differences. The aim is to group together similar data points and assign them a label or category based on these similarities. The following clustering techniques are commonly used:
+Clustering is a technique used in fault diagnosis to identify groups of unlabelled data points based on their similarities and differences. The aim is to group together similar data points and assign them a label or category based on these similarities. The following clustering techniques are used in these Jupyter notebooks:
 
-- K-Means Clustering
-- Gaussian Clustering
-- Hierarchical Clustering
-- Clustering after Discrete Wavelet Transform approach
-- Dynamic Time Warping based Clustering 
+- K-Means Clustering : `Kmeans_clustering`
+- Gaussian Clustering : `Gaussian_clustering`
+- Hierarchical Clustering : `Hierarchical_clustering`
+- Clustering after Discrete Wavelet Transform approach : `Wavelet_transform_clustering` 
+- Dynamic Time Warping based Clustering : `DTW_clustering`
 
 ## Pre-requisites
 - Jupyter Notebook
@@ -28,9 +28,12 @@ Clustering is a technique used in fault diagnosis to identify groups of unlabell
 - fastdtw==0.3.4
 
 ## Dataset
-The dataset used for clustering is to be saved in a folder after performing pre-processing. The path to the folder should be updated in the `datasource_config.py` file by changing the path for the `CLUSTERING_SOURCE_DATA_PATH` variable in the Python file.
+The dataset used for clustering is to be saved in a folder after performing pre-processing. The path to the pre-processed dataset folder should be updated by changing the path for the `CLUSTERING_SOURCE_DATA_PATH` variable in `datasource_config.py` file.
 
 ## Running the clustering algorithm notebooks
 1. Update the path to the pre-processed dataset in the `datasource_config.py` file.
 2. Run each of the Jupyter notebooks for the different clustering algorithms.
 3. Check the crosstab heatmaps and scatter plots generated in each notebook to understand the cluster label assignment and how they are distributed amongst different fault labels.
+
+## Understanding the scatter plots and crosstab heatmaps
+Upon assigning a cluster label to each of the data rows, the accuracy of the clustering algorithm is checked by comparing the cluster label assigned to each data row with the actual fault label of that data row by creating a crosstab heat map to decide which cluster label is most likely to resemble which fault label. We can use the crosstab heatmap to understand which of the cluster labels assigned are most uniquely assigned to a true fault label and which of the clusters are most related to one another based on how they are distributed amongst different fault labels. 
