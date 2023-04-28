@@ -13,19 +13,19 @@ Clustering is a technique used in fault diagnosis to identify groups of unlabell
 - Jupyter Notebook
 
 ## Libraries required
-- python==3.9.13
-- pandas==1.5.3
-- sklearn==0.0.post1
-- matplotlib==3.7.0
-- scipy==1.8.1
-- seaborn==0.11.2
-- pyarrow==11.0.0
-- fastcluster==1.2.6
-- numpy==1.23.1
-- pywt==1.4.1
-- dtw==1.4.0
-- tslearn==0.5.3.2
-- fastdtw==0.3.4
+- python==3.9.13 `pip install python==3.9.13`
+- pandas==1.5.3 `pip install pandas==1.5.3`
+- sklearn==0.0.post1 `pip install sklearn==0.0.post1`
+- matplotlib==3.7.0 `pip install matplotlib==3.7.0`
+- scipy==1.8.1 `pip install scipy==1.8.1`
+- seaborn==0.11.2 `pip install seaborn==0.11.2`
+- pyarrow==11.0.0 `pip install pyarrow==11.0.0`
+- fastcluster==1.2.6 `pip install fastcluster==1.2.6`
+- numpy==1.23.1 `pip install numpy==1.23.1`
+- pywt==1.4.1 `pip install pywt==1.4.1`
+- dtw==1.4.0 `pip install dtw==1.4.0`
+- tslearn==0.5.3.2 `pip install tslearn==0.5.3.2`
+- fastdtw==0.3.4 `pip install fastdtw==0.3.4`
 
 ## Dataset
 The dataset used for clustering is to be saved in a folder after performing pre-processing. The path to the dataset folder created after pre-processing should be updated by changing the path in the `CLUSTERING_SOURCE_DATA_PATH` variable in `datasource_config.py` file.
